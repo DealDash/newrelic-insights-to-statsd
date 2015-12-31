@@ -29,7 +29,7 @@ $nr_account_id = ''; // set your New Relic account ID here
 
 $queries = array(
 	array (
-		'query_api_key'     => "i6101P8qVoic9BdHFu4bX8mZADguuaTA", // New Relic query API key
+		'query_api_key'     => "YOUR_QUERY_API_KEY", // New Relic query API key
 		'encodedQuery'      => "SELECT%20uniqueCount%28session%29%20FROM%20PageView%20since%204%20minute%20ago", // encoded query string
 		'keyToFetch'        => 'uniqueCount', // which key from the results we want to fetch
 		'indexInResult'     => 0, // API can return multiple results - which one to fetch. defaults to 0 
