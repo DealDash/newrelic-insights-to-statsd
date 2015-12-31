@@ -1,0 +1,8 @@
+{
+    "name" : "DealDash/newrelic-insights-to-statsd",
+    "require": {
+        "php": ">=5.3.3",
+        "ext-curl": "*",
+        "league/statsd": "1.3.*"
+    }
+}
